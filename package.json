@@ -1,0 +1,22 @@
+{
+  "name": "ratemodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/styles_iman.css -o ./public/styles_iman.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iman244/rateModule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iman244/rateModule/issues"
+  },
+  "homepage": "https://github.com/iman244/rateModule#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
