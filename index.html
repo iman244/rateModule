@@ -4,38 +4,50 @@
             <link rel="stylesheet" href="style.css">
         </head>
     <body>
-        <h1>mano sinatt</h1>
-        <h2>Lets go for the challenge</h2>
-        <div class="mid-div">This div is the middle
-            <div class="div-top">
-                <img src="materials\icon-star.svg" alt="">
+        
+        
+        <div class="center">
+            <div class="top-center">
+                <div class="circle">
+                    <img src="materials\icon-star.svg" style="max-width: 30px; max-height: 30px; right: 0;">
+                </div>
+            </div>
+            <div class="mid-center">
+                <div class="mid-div"></div>
                 <h1>How did we do?</h1>
+                
+
                 <h3 class="para-mid">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offerings.</h3>
-                <form action="" class="rates">
-                    <label for="radio-1">
-                        <input type="radio" name="radio-1" class="radio-butt">
-                        <span class="rate-label">1</span>
-                    </label>
-                    <label for="radio-2">
-                        <input type="radio" name="radio-2" class="radio-butt">
-                        <span class="rate-label">2</span>
-                    </label>
-                    <label for="radio-3">
-                        <input type="radio" name="radio-3" class="radio-butt">
-                        <span class="rate-label">3</span>
-                    </label>
-                    <label for="radio-4">
-                        <input type="radio" name="radio-4" class="radio-butt">
-                        <span class="rate-label">4</span>
-                    </label>
-                    <label for="radio-5">
-                        <input type="radio" name="radio-5" class="radio-butt">
-                        <span class="rate-label">5</span>
-                    </label>
-                    <input type="submit" class="submit">
+                <form action="" class="rates" onsubmit="submit();">
+                    <div class="radios">
+                        
+                            <input type="radio" id="radio-1" name="rate" class="radio-butt">
+                            <label for="radio-1">1</label>
+                            
+                        
+                            <input type="radio" id="radio-2" name="rate" class="radio-butt">
+                            <label for="radio-2">2</label>
+                            
+                        
+                        
+                            <input type="radio" id="radio-3" name="rate" class="radio-butt">
+                            <label for="radio-3">3</label>
+                         
+                        
+                            <input type="radio" id="radio-4" name="rate" class="radio-butt">
+                            <label for="radio-4">4</label>
+                            
+                        
+                            <input type="radio" id="radio-5" name="rate" class="radio-butt">
+                            <label for="radio-5">5</label>
+                            <!-- <span class="rate-label">5</span> -->
+                        <br> 
+                    </div>
+                    <input type="submit" class="submit" id="submit">
                 </form>
             </div>
-            
         </div>
+         
+    <script src="script.js"></script>
     </body>
 </html>
