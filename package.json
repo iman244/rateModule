@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "npx tailwindcss -i ./src/styles_iman.css -o ./public/styles_iman.css --watch"
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "repository": {
     "type": "git",

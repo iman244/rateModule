@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-primary h-full flex justify-center items-center text-slate-100;
+}
+
+.box {
+  @apply w-96 p-7 bg-secondary rounded-2xl flex flex-col justify-center;
+}
+
+.icon {
+  @apply w-fit h-fit mb-7 p-4 bg-tertiary border-0 rounded-full text-2xl text-yellow-400;
+}
+
+.texts h2 {
+  @apply mb-3 text-xl font-semibold;
+}
+
+.texts p {
+  @apply text-sm text-gray-400;
+}
+
+.rateButtons {
+  @apply mb-7 flex justify-between;
+}
+
+.rateButtons button {
+  @apply w-11 h-11 p-1 rounded-full bg-tertiary hover:bg-hoverButtons text-gray-400 hover:text-white;
+}
+
 .selected {
-    @apply bg-gray-400 text-white
+  @apply !bg-gray-400 !text-white;
+}
+
+.submit {
+  @apply p-2 rounded-full bg-tertiary hover:bg-white text-center text-gray-400 hover:text-hoverButtons font-semibold uppercase;
 }
